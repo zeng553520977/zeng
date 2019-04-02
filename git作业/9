@@ -1,0 +1,2 @@
+1、git fetch 相当于是从远程获取最新版本到本地，不会自动merge;这将更新git remote 中所有的远程仓库所包含分支的最新commit-id, 将其记录到.git/fetch_head文件中
+2. git pull：相当于是从远程获取最新版本并merge到本地

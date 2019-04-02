@@ -1,0 +1,4 @@
+t rm --cached
+git rm --cached 会从index里面删除该文件，下次commit的时候会修改git仓库，但是本地的文件还是保留
+git rm -r
+将文件夹从版本库中删除
